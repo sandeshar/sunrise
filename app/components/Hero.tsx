@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaArrowAltCircleDown, FaArrowDown, FaCircle, FaDotCircle, FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaArrowDown, FaCircle, FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -23,7 +23,7 @@ const Hero = () => {
             <FaArrowDown className="fill-red-600 animate-bounce" size={30} />
           </div>
         </div>
-        <div className="flex items-center justify-center"><Image src="/greetings.png" width={525} height={100} alt="Sunrise Greetings" /></div>
+        <div className="flex items-center justify-center"><Image src="/greet.png" width={525} height={100} alt="Sunrise Greetings" /></div>
       </div>
     </div>
   );
