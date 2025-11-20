@@ -13,9 +13,9 @@ const Hero = () => {
       </ul>
       <div className="grid grid-cols-2">
         <div className="space-y-6 px-4">
-          <p className="flex items-center text-3xl font-semibold text-gray-400">
-            <FaCircle size={15} className="fill-red-600 mr-5" /> Bringing Ideas
-          </p>
+          <div className="flex items-center text-3xl font-semibold text-gray-400 space-x-5">
+            <FaCircle size={15} className="fill-red-600" /> <p>Bringing Ideas</p>
+          </div>
           <p className="mt-2 uppercase sm:text-5xl md:text-8xl"><span className="text-red-600 font-bold sm:text-7xl md:text-9xl">Artistry</span><br /> in Every pixel</p>
           <p className="mt-4 text-gray-400">We are a graphics design and printing agency offering creative visual solutions and high-quality printing services. We design logos, branding materials, promotional graphics, and deliver professional prints for businesses, events, and personal needs.</p>
           <div className="flex flex-col items-center space-y-4 pt-20">

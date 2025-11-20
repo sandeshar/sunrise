@@ -1,5 +1,6 @@
-import Image from "next/image";
+import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
+import Mission from "./components/Mission";
 import Work from "./components/Work";
 
 export default function Home() {
@@ -7,6 +8,8 @@ export default function Home() {
     <>
       <Hero />
       <Work />
+      <Mission />
+      <Gallery />
     </>
   );
 }
