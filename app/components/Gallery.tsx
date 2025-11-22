@@ -18,14 +18,14 @@ const Gallery = () => {
                     <div key={index} className="relative group overflow-hidden rounded-lg shadow-lg">
                         <Image
                             src={src}
-                            alt={`Gallery Image ${index + 1}`}
+                            alt={`Gallery Image ${index}`}
                             width={700}
                             height={600}
                             className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                             <p className="text-white text-xl font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                                Hovered Text {index + 1}
+                                Hovered Text {index}
                             </p>
                         </div>
                     </div>
