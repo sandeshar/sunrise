@@ -58,9 +58,6 @@ const Gallery = () => {
             <div className="bg-red-600 text-white font-bold py-2 uppercase mt-10 -rotate-2 overflow-hidden relative">
                 <div className="flex animate-scroll">
                     <span className="inline-block min-w-max px-4">In every pixel, there is a story waiting to be told. So let us help you tell yours.</span>
-                    <span className="inline-block min-w-max px-4">In every pixel, there is a story waiting to be told. So let us help you tell yours.</span>
-                    <span className="inline-block min-w-max px-4">In every pixel, there is a story waiting to be told. So let us help you tell yours.</span>
-                    <span className="inline-block min-w-max px-4">In every pixel, there is a story waiting to be told. So let us help you tell yours.</span>
                 </div>
             </div>
         </div>
