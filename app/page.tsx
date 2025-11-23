@@ -1,6 +1,7 @@
 import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
 import Mission from "./components/Mission";
+import Services from "./components/Services";
 import Work from "./components/Work";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Work />
       <Mission />
       <Gallery />
+      <Services />
     </>
   );
 }

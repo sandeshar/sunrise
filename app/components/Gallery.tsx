@@ -60,6 +60,11 @@ const Gallery = () => {
                     In every pixel, there is a story waiting to be told. So let us help you tell yours.
                 </div>
             </div>
+            <div className="flex justify-around px-10 py-12 text-center text-2xl font-semibold">
+                <p><span className="text-4xl font-extrabold text-transparent [-webkit-text-stroke:2px_red]">15</span><br /> Years of Excellence</p>
+                <p><span className="text-4xl font-extrabold text-transparent [-webkit-text-stroke:2px_red]">1000+</span><br /> Clients Satisfied</p>
+                <p><span className="text-4xl font-extrabold text-transparent [-webkit-text-stroke:2px_red]">500+</span><br /> Projects Completed</p>
+            </div>
         </div>
     );
 };
