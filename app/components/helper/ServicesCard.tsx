@@ -13,7 +13,7 @@ const ServicesCard = ({ Icon, title, description, points }: ServicesCardProps) =
         <div className="p-5 shadow-md">
             <div className="flex flex-col items-center text-center">
                 <Icon size={40} className="fill-red-600" />
-                <p className="font-semibold">{title}</p>
+                <p className="font-semibold text-2xl">{title}</p>
                 <p className="text-gray-600">{description}</p>
             </div>
             <ul className="list-none space-y-2">
