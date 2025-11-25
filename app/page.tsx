@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
 import Mission from "./components/Mission";
@@ -16,6 +17,7 @@ export default function Home() {
       <Services />
       <Quote />
       <Reviews />
+      <Contact />
     </>
   );
 }
