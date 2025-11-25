@@ -1,4 +1,4 @@
-import { FaBullhorn, FaChalkboardTeacher, FaGlobe, FaPaintBrush, FaPrint } from "react-icons/fa";
+import { FaBullhorn, FaChalkboardTeacher, FaGlobe, FaIdCard, FaPaintBrush, FaPrint } from "react-icons/fa";
 import SectionTitle from "./helper/SectionTitle";
 import ServicesCard from "./helper/ServicesCard";
 
@@ -26,6 +26,18 @@ const Services = () => {
                 "E-commerce Setup",
                 "Landing Pages",
                 "Website Redesign",
+            ],
+        },
+        {
+            Icon: FaIdCard,
+            title: "Business Stationery",
+            description: "Design professional business cards and stationery easily.",
+            points: [
+                "Business Cards",
+                "Letterheads",
+                "Envelopes",
+                "Invoices & Forms",
+                "Corporate Stationery",
             ],
         },
         {
@@ -66,18 +78,19 @@ const Services = () => {
         },
     ];
     return (
-        <div className="py-10">
+        <div className="py-20">
             <SectionTitle title="Services" />
             <p className="text-center text-6xl font-bold uppercase">Creative Services</p>
-            <div className="flex">
+            <div className="flex flex-wrap justify-center gap-14 px-10 mt-14">
                 {servicesData.map((service, i) => (
-                    <ServicesCard
-                        key={i}
-                        Icon={service.Icon}
-                        title={service.title}
-                        description={service.description}
-                        points={service.points}
-                    />
+                    <div key={i} className="w-full sm:w-1/2 lg:w-1/4 flex hover:scale-105 transition-transform">
+                        <ServicesCard
+                            Icon={service.Icon}
+                            title={service.title}
+                            description={service.description}
+                            points={service.points}
+                        />
+                    </div>
                 ))}
             </div>
         </div>

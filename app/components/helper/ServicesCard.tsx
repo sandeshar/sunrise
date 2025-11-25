@@ -10,13 +10,13 @@ interface ServicesCardProps {
 
 const ServicesCard = ({ Icon, title, description, points }: ServicesCardProps) => {
     return (
-        <div className="p-5 shadow-md">
-            <div className="flex flex-col items-center text-center">
+        <div className="p-5 shadow-[0_4px_15px_rgba(0,0,0,0.2)] flex flex-col items-center text-center h-full w-full">
+            <div className="flex flex-col items-center text-center space-y-2">
                 <Icon size={40} className="fill-red-600" />
-                <p className="font-semibold text-2xl">{title}</p>
+                <p className="font-bold text-2xl">{title}</p>
                 <p className="text-gray-600">{description}</p>
             </div>
-            <ul className="list-none space-y-2">
+            <ul className="list-none space-y-3 mt-4 w-full">
                 {points.map((point, index) => (
                     <li key={index} className="flex items-center">
                         <FaCheck className="text-red-600 mr-2" />
@@ -25,6 +25,7 @@ const ServicesCard = ({ Icon, title, description, points }: ServicesCardProps) =
                 ))}
             </ul>
         </div>
+
     );
 };
 
