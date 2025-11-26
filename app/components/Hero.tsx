@@ -3,7 +3,7 @@ import { FaArrowDown, FaCircle, FaFacebook, FaInstagram, FaLinkedin, FaYoutube }
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row py-8 sm:py-10 lg:py-12 md:min-h-[calc(100vh-80px)] overflow-hidden">
+    <div id="home" className="flex flex-col lg:flex-row py-8 sm:py-10 lg:py-12 md:min-h-[calc(100vh-80px)] overflow-hidden">
       {/* Social Media Icons - Hidden on mobile, visible on larger screens */}
       <ul className="hidden lg:flex justify-around items-center px-4 xl:px-8 2xl:px-12 flex-col space-y-12 xl:space-y-20">
         <li><FaFacebook size={32} className="hover:text-red-600 transition-colors cursor-pointer xl:w-10 xl:h-10" /></li>

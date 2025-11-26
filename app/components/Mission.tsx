@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Mission = () => {
     return (
-        <div className="pt-20">
+        <div id="about" className="pt-20">
             <SectionTitle title="Our mission" subtitle="Pixel Perfect" />
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center px-12 py-24">
                 <div className="relative flex items-center justify-center w-max h-max mx-auto mb-24">

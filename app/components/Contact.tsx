@@ -3,7 +3,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <div>
+        <div id="contact">
             <SectionTitle title="Contact" subtitle="Get in Touch" />
             <div className="grid geid-cols-1 md:grid-cols-2 justify-center items-center gap-10 p-12" >
                 <div>

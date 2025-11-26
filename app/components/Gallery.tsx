@@ -38,7 +38,7 @@ const Gallery = () => {
                     <a className="border-2 border-red-600 px-4 py-2 font-bold hover:cursor-pointer flex justify-center items-center space-x-2 w-max"><FaCircle size={15} className="fill-red-600" /><p>View All</p></a>
 
                 </div>
-                <div className="flex space-x-2">
+                <div className="flex space-x-2 flex-col space-y-4 lg:flex-row overflow-x-scroll">
                     <Image
                         src={'/art1.jpg'}
                         alt={`Gallery Image`}

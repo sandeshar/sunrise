@@ -78,7 +78,7 @@ const Services = () => {
         },
     ];
     return (
-        <div className="py-20">
+        <div id="services" className="py-20">
             <SectionTitle title="Services" subtitle="Creative Services" />
             <div className="flex flex-wrap justify-center gap-14 px-10 mt-14">
                 {servicesData.map((service, i) => (
