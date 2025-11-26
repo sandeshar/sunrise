@@ -5,7 +5,7 @@ import { GiTeacher } from "react-icons/gi";
 
 const Work = () => {
     return (
-        <div className="flex justify-around p-10 md:px-28">
+        <div className="flex flex-col md:flex-row items-center space-y-12 justify-around p-10 md:px-28">
             <WorkComponent
                 Icon={MdOutlineDesignServices}
                 title="Creative Design"

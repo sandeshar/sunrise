@@ -48,8 +48,7 @@ const Reviews = () => {
     ];
     return (
         <div className="py-20">
-            <SectionTitle title="Reviews" />
-            <p className="text-center text-6xl font-bold uppercase">What Our Clients Say</p>
+            <SectionTitle title="Reviews" subtitle="What Our Clients Say" />
             <div className="mt-10 mx-auto text-center text-lg italic text-gray-700 overflow-hidden p-5">
                 <div className="flex gap-8 animate-reviews-scroll">
                     {reviewsData.map((review, index) => (

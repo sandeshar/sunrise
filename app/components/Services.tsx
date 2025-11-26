@@ -79,8 +79,7 @@ const Services = () => {
     ];
     return (
         <div className="py-20">
-            <SectionTitle title="Services" />
-            <p className="text-center text-6xl font-bold uppercase">Creative Services</p>
+            <SectionTitle title="Services" subtitle="Creative Services" />
             <div className="flex flex-wrap justify-center gap-14 px-10 mt-14">
                 {servicesData.map((service, i) => (
                     <div key={i} className="w-full sm:w-1/2 lg:w-1/4 flex hover:scale-105 transition-transform">

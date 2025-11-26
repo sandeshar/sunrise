@@ -11,8 +11,7 @@ const Gallery = () => {
 
     return (
         <div className="pt-20">
-            <SectionTitle title="Gallery" />
-            <p className="text-center text-6xl font-bold uppercase">Creative Universe</p>
+            <SectionTitle title="Gallery" subtitle="Creative Universe" />
 
             <div className="px-5 pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 justify-items-center">
                 {images.map((src, index) => (

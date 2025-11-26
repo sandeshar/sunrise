@@ -5,13 +5,12 @@ import Image from "next/image";
 const Mission = () => {
     return (
         <div className="pt-20">
-            <SectionTitle title="Our mission" />
-            <p className="text-center text-6xl font-bold uppercase">Pixel Perfect</p>
-            <div className="grid grid-cols-2 justify-center items-center px-44 py-24">
-                <div className="relative flex items-center justify-center w-max h-max mx-auto">
-                    <div className="bg-yellow-400 absolute bottom-0 right-0 rotate-[30deg] w-48 h-48 origin-bottom-right" />
-                    <div className="bg-yellow-400 absolute bottom-4 right-0 rotate-[-30deg] w-72 h-72 origin-bottom-right" />
-                    <Image src="/haveadream.png" width={300} height={300} className="z-10" alt="Our Mission" />
+            <SectionTitle title="Our mission" subtitle="Pixel Perfect" />
+            <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center px-12 py-24">
+                <div className="relative flex items-center justify-center w-max h-max mx-auto mb-24">
+                    <div className="bg-yellow-400 absolute bottom-4 right-0 rotate-30 w-44 h-44 lg:w-72 lg:h-72 origin-bottom-right" />
+                    <div className="bg-yellow-400 absolute bottom-4 right-0 rotate-[-30deg] w-44 h-44 lg:w-72 lg:h-72 origin-bottom-right" />
+                    <Image src="/haveadream.png" width={300} height={300} className="z-10 w-52 h-52 lg:w-80 lg:h-80" alt="Our Mission" />
                 </div>
                 <div className="flex flex-col space-y-6">
                     <p className="text-4xl font-semibold">Turning Ideas into Digital Brilliance</p>

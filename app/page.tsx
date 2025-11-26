@@ -1,5 +1,4 @@
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
 import Mission from "./components/Mission";
@@ -19,7 +18,6 @@ export default function Home() {
       <Quote />
       <Reviews />
       <Contact />
-      <Footer />
     </>
   );
 }
