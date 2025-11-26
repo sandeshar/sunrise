@@ -38,7 +38,7 @@ const Gallery = () => {
                     <a className="border-2 border-red-600 px-4 py-2 font-bold hover:cursor-pointer flex justify-center items-center space-x-2 w-max"><FaCircle size={15} className="fill-red-600" /><p>View All</p></a>
 
                 </div>
-                <div className="flex space-x-2 flex-col space-y-4 lg:flex-row overflow-x-scroll">
+                <div className="flex space-x-2 flex-col space-y-4 lg:flex-row overflow-x-scroll overflow-y-hidden">
                     <Image
                         src={'/art1.jpg'}
                         alt={`Gallery Image`}
@@ -54,11 +54,9 @@ const Gallery = () => {
                     />
                 </div>
             </div>
-            <div className="overflow-hidden mt-10">
-                <div className="bg-red-600 text-white font-bold py-2 uppercase -rotate-2 overflow-hidden relative">
-                    <div className="animate-scroll whitespace-nowrap">
-                        In every pixel, there is a story waiting to be told. So let us help you tell yours.
-                    </div>
+            <div className="bg-red-600 text-white font-bold py-2 uppercase my-16 -rotate-2 overflow-hidden relative">
+                <div className="animate-scroll whitespace-nowrap">
+                    In every pixel, there is a story waiting to be told. So let us help you tell yours.
                 </div>
             </div>
             <div className="flex justify-around px-10 py-12 text-center text-2xl font-semibold">
