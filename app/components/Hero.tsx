@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="flex items-center text-base sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-semibold text-gray-400 space-x-2 sm:space-x-3 lg:space-x-4">
             <FaCircle size={12} className="fill-red-600 shrink-0 sm:w-4 sm:h-4" /> <p>Bringing Ideas</p>
           </div>
-          <h1 className="uppercase text-3xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl leading-tight font-medium">
+          <h1 className="uppercase text-2xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl leading-tight font-medium">
             <span className="text-red-600 font-bold text-4xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl block mb-1 sm:mb-2">Artistry</span>
             in Every pixel
           </h1>

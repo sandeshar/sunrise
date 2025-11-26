@@ -54,9 +54,11 @@ const Gallery = () => {
                     />
                 </div>
             </div>
-            <div className="bg-red-600 text-white font-bold py-2 uppercase mt-10 -rotate-2 overflow-hidden relative">
-                <div className="animate-scroll whitespace-nowrap">
-                    In every pixel, there is a story waiting to be told. So let us help you tell yours.
+            <div className="overflow-hidden mt-10">
+                <div className="bg-red-600 text-white font-bold py-2 uppercase -rotate-2 overflow-hidden relative">
+                    <div className="animate-scroll whitespace-nowrap">
+                        In every pixel, there is a story waiting to be told. So let us help you tell yours.
+                    </div>
                 </div>
             </div>
             <div className="flex justify-around px-10 py-12 text-center text-2xl font-semibold">
