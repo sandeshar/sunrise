@@ -21,7 +21,7 @@ const Navbar = () => {
                 <RxCross2 size={32} className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} hover:cursor-pointer`} onClick={() => setIsMenuOpen(false)} />
             </div>
             <ul className={`flex flex-col font-bold items-center space-y-3 py-5 bg-gray-50 ${isMenuOpen ? 'block' : 'hidden'}`}>
-                <li className="hover:cursor-pointer border-b-2"><a href="#home" onClick={() => setIsMenuOpen(false)} className="hover:text-red-600 transition-colors">Home</a></li>
+                <li className="hover:cursor-pointer"><a href="#home" onClick={() => setIsMenuOpen(false)} className="hover:text-red-600 transition-colors">Home</a></li>
                 <li className="hover:cursor-pointer"><a href="#about" onClick={() => setIsMenuOpen(false)} className="hover:text-red-600 transition-colors">About</a></li>
                 <li className="hover:cursor-pointer"><a href="#services" onClick={() => setIsMenuOpen(false)} className="hover:text-red-600 transition-colors">Services</a></li>
                 <li className="hover:cursor-pointer"><a href="#contact" onClick={() => setIsMenuOpen(false)} className="hover:text-red-600 transition-colors">Contact</a></li>
