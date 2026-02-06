@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+    --color-primary: #dc2626;
+    --color-charcoal: #333333;
+}
+
+.card-hover-gradient {
+    background: white;
+}
+
+.card-hover-gradient:hover {
+    background: linear-gradient(135deg, white 0%, #fff5f5 100%);
+}
+
 html {
     scroll-behavior: smooth;
 }
